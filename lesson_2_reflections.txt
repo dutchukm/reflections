@@ -2,4 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 - sets up the empty repo
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- The staging area is a temp holding area for files that are flagged to be comitted on the next commit.  The working dir is all the files, in various states of change.  You would not necessarily want to commit all the files in the working dir.  The repo is the storage area for all comitted files, their various versions, and metadata to track the changes.
+
 
