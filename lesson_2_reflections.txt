@@ -6,4 +6,25 @@ How is the staging area different from the working directory and the repository?
 
 - The staging area is a temp holding area for files that are flagged to be comitted on the next commit.  The working dir is all the files, in various states of change.  You would not necessarily want to commit all the files in the working dir.  The repo is the storage area for all comitted files, their various versions, and metadata to track the changes.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+- You may have made changes to other files, not related to a commit, but you don't need to commit them.  You could save them for another commit, for example. Only stage the files that relate to the logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- When you are developing multiple concurrent versions
+- When you want to experiment
+
+How do the diagrams help you visualize the branch structure?
+
+- easy to visualize the paths and relationships of the commits on the branches
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The merged branch contains the features from both branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- auto merges tend to do the right thing, but are cautious and won't introduce bugs
+- manual merge requires human intervention. Probably safer but often not necessary.
+
 
